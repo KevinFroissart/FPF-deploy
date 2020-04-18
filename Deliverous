@@ -1,5 +1,5 @@
 java:
-    image: registry.gitlab.com/univlille/defi-agile-iut/skeleton/server
+    image: registry.gitlab.com/univlille/defi-agile-iut/skeleton/server:master
     ports:
     - ip: 5.135.124.160
       container_port: 8080
