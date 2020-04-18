@@ -1,0 +1,8 @@
+java:
+    image: registry.gitlab.com/tclavier/jersey-skeleton
+    ports:
+    - ip: A.X.Y.Z
+      container_port: 8080
+      host_port: 80
+
+
