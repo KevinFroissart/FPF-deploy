@@ -1,8 +1,8 @@
 java:
-    image: registry.gitlab.com/tclavier/jersey-skeleton
+    image: registry.gitlab.com/univlille/defi-agile-iut/skeleton/server
     ports:
-    - ip: A.X.Y.Z
+    - ip: 5.135.124.160
       container_port: 8080
-      host_port: 80
+      host_port: 8080
 
 
