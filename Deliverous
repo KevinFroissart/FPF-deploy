@@ -1,4 +1,4 @@
-lb:
+front:
   image: registry.gitlab.com/univlille/defi-agile-iut/skeleton/deploy:master
   ports:
   - ip: 5.135.124.160
