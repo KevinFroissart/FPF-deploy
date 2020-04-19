@@ -15,10 +15,17 @@ front:
     path: /etc/letsencrypt
 
 java:
-    image: registry.gitlab.com/univlille/defi-agile-iut/skeleton/server:master
+  image: registry.gitlab.com/univlille/defi-agile-iut/skeleton/server:master
+  ports:
+  - ip: 5.135.124.160
+    container_port: 8080
+    host_port: 8080
 
 js:
-    image: registry.gitlab.com/univlille/defi-agile-iut/skeleton/client-web:master
-
+  image: registry.gitlab.com/univlille/defi-agile-iut/skeleton/client-web:master
+  ports:
+  - ip: 5.135.124.160
+    container_port: 8000
+    host_port: 8000
 
 
