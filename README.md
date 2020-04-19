@@ -1,5 +1,7 @@
 # Activer le déploiement continue
 
+La version en video : https://video.ploud.fr/videos/watch/5fd4bb72-693a-49ce-9a6e-7e80a320e12c
+
 ## Créer un projet sur deliverous
 
 Rendez-vous sur https://deliverous.com/manager/ pour créer un nouveau projet. Appelez le `IUT2020 Nom du projet` Il est important qu'il commance par IUT2020.
