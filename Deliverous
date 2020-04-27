@@ -8,7 +8,7 @@ front:
     container_port: 443
     host_port: 443
   environment:
-    TLS_DOMAINS: groupe-9.azae.eu
+    TLS_DOMAINS: groupe9.azae.eu
     TLS_EMAIL: kevin.froissart69@gmail.com
   volumes:
   - name: letsencrypt
@@ -16,17 +16,9 @@ front:
 
 java:
   image: registry.gitlab.com/univlille/defi-agile-iut/groupe-9/server:master
-  ports:
-  - ip: 178.32.14.215
-    container_port: 8080
-    host_port: 8080
-
 
 js:
   image: registry.gitlab.com/univlille/defi-agile-iut/groupe-9/client-web:master
   ports:
-  - ip: 178.32.14.215
-    container_port: 8000
-    host_port: 8000
 
   
