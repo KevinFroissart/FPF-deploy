@@ -1,10 +1,10 @@
 front:
   image: registry.gitlab.com/univlille/defi-agile-iut/skeleton/deploy:master
   ports:
-  - ip: 5.135.124.160
+  - ip: 178.32.14.215
     container_port: 80
     host_port: 80
-  - ip: 5.135.124.160
+  - ip: 178.32.14.215
     container_port: 443
     host_port: 443
   environment:
