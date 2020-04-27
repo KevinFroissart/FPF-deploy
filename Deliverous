@@ -8,7 +8,7 @@ front:
     container_port: 443
     host_port: 443
   environment:
-    TLS_DOMAINS: groupe9.azae.eu
+    TLS_DOMAINS: groupe-9.azae.eu
     TLS_EMAIL: kevin.froissart69@gmail.com
   volumes:
   - name: letsencrypt
