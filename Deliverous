@@ -1,5 +1,5 @@
 front:
-  image: registry.gitlab.com/univlille/defi-agile-iut/skeleton/deploy:master
+  image: registry.gitlab.com/univlille/defi-agile-iut/groupe-9/deploy:master
   ports:
   - ip: 178.32.14.215
     container_port: 80
@@ -8,16 +8,16 @@ front:
     container_port: 443
     host_port: 443
   environment:
-    TLS_DOMAINS: skeleton.azae.eu
-    TLS_EMAIL: tclavier@azae.net
+    TLS_DOMAINS: groupe-9.azae.eu
+    TLS_EMAIL: kevin.froissart69@gmail.com
   volumes:
   - name: letsencrypt
     path: /etc/letsencrypt
 
 java:
-  image: registry.gitlab.com/univlille/defi-agile-iut/skeleton/server:master
+  image: registry.gitlab.com/univlille/defi-agile-iut/groupe-9/server:master
 
 js:
-  image: registry.gitlab.com/univlille/defi-agile-iut/skeleton/client-web:master
+  image: registry.gitlab.com/univlille/defi-agile-iut/groupe-9/client-web:master
 
 
