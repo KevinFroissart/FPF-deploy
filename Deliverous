@@ -14,6 +14,12 @@ front:
   - name: letsencrypt
     path: /etc/letsencrypt
 
+bdd:
+  image: registry.gitlab.com/univlille/defi-agile-iut/groupe-9/bdd-server:master
+  ports:
+  - ip: 178.32.17.215
+	container_port: 5432
+	host_port: 5432
 java:
   image: registry.gitlab.com/univlille/defi-agile-iut/groupe-9/server:master
   ports:
