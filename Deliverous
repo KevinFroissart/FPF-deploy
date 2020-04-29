@@ -16,13 +16,13 @@ front:
   volumes:
   - name: letsencrypt
     path: /etc/letsencrypt
-
-bdd:
-  image: registry.gitlab.com/univlille/defi-agile-iut/groupe-9/bdd-server:master
-  
+ 
 java:
   image: registry.gitlab.com/univlille/defi-agile-iut/groupe-9/server:master
 
 js:
   image: registry.gitlab.com/univlille/defi-agile-iut/groupe-9/client-web:master
   
+bdd:
+  image: registry.gitlab.com/univlille/defi-agile-iut/groupe-9/bdd-server:master
+ 
