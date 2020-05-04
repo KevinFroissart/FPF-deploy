@@ -23,6 +23,6 @@ java:
 js:
   image: registry.gitlab.com/univlille/defi-agile-iut/groupe-9/client-web:master
   
-bdd:
-  image: registry.gitlab.com/univlille/defi-agile-iut/groupe-9/bdd-server:master
+dbserver:
+  image: registry.gitlab.com/univlille/defi-agile-iut/groupe-9/database:master
  
