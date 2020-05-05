@@ -7,9 +7,6 @@ front:
   - ip: 178.32.14.215
     container_port: 443
     host_port: 443
-  - ip: 178.32.14.215
-    container_port: 5432
-    host_port: 5432
   environment:
     TLS_DOMAINS: groupe9.azae.eu
     TLS_EMAIL: kevin.froissart69@gmail.com
@@ -24,12 +21,11 @@ js:
   image: registry.gitlab.com/univlille/defi-agile-iut/groupe-9/client-web:master
   
 dbserver:
-  image: registry.gitlab.com/univlille/defi-agile-iut/groupe-9/database:master
+  image: postgres
   environment:
     POSTGRES_DB: server
     POSTGRES_USER: server
     POSTGRES_PASSWORD: docker
-    POSTGRES_HOST_AUTH_METHOD: trust
 
 
  
