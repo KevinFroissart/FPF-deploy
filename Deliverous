@@ -25,4 +25,11 @@ js:
   
 dbserver:
   image: registry.gitlab.com/univlille/defi-agile-iut/groupe-9/database:master
+  environment:
+    POSTGRES_DB: server
+    POSTGRES_USER: server
+    POSTGRES_PASSWORD: docker
+    POSTGRES_HOST_AUTH_METHOD: trust
+
+
  
